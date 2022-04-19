@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/customers', (req, res) => {
-    res.send('[1, 2, 3');
+    res.send('[1, 2, 3]');
 });
 
 //GET Method
